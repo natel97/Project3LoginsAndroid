@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.natel.project3logins.MainActivity">
+
+    <include
+        android:id="@+id/LoginFrag"
+        layout="@layout/basic_login_fragment"
+        android:visibility="visible" />
+
+    <include
+        android:id="@+id/LoginFrag2"
+        layout="@layout/more_info_fragment"
+        android:visibility="gone" />
+
+</android.support.constraint.ConstraintLayout>
